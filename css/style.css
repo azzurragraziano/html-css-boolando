@@ -17,6 +17,11 @@ img
 
 
 /* COMMON */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 .container
 {
     width: 70%;
@@ -74,4 +79,96 @@ header
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+/* MAIN */
+.col
+{
+    width: calc( 100% / 3 );
+    padding: 0 10px;
+}
+
+.cards
+{
+    position: relative;
+}
+
+.product 
+{
+    margin-top: 20px;
+    position: relative;
+}
+
+.discount
+{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.products-list
+{
+    flex-wrap: wrap;
+}
+
+.back-green 
+{
+    background-color: green;
+    padding: 5px;
+    font-size: smaller;
+}
+
+.back-red
+{
+    background-color: red;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: smaller;
+}
+
+.over
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.product:hover .over {
+    display: inline-block;
+}
+
+.heart
+{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.brand
+{
+    font-size: small;
+    color: gray;
+}
+
+.price
+{
+    font-size: smaller;
+}
+
+.discounted-price
+{
+    color: red;
+}
+
+.original-price
+{
+    text-decoration: line-through;
 }
