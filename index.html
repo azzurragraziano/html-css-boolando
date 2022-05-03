@@ -13,190 +13,255 @@
     
     <!-- HEADER -->
     <header>
-        <div class="container">
-            <!-- navigation area -->
-            <div class="navigation-area flex-container">
+        <nav class="container">
 
-                <!-- categories -->
-                <nav class="categories">
-                    <ul class="categories-list flex-container">
-                        <li>
-                            <a href="#">Donna</a>
-                        </li>
-                        <li>
-                            <a href="#">Uomo</a>
-                        </li>
-                        <li>
-                            <a href="#">Bambini</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- logo -->
-                <div class="logo flex-container">
-                    <img src="img/boolean-logo.png" alt="boolean-logo">
-                </div>
-
-                <!-- option -->
-                <nav class="option">
-                    <ul class="option-list flex-container">
-                        <li>
-                            <a href="#"><i class="fa-regular fa-user"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa-regular fa-heart"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
-                        </li>
-                    </ul>
-                </nav>
+            <!-- main-menu -->
+            <div class="main-menu">
+                <ul class="categories-list">
+                    <li>
+                        <a href="#">Donna</a>
+                    </li>
+                    <li>
+                        <a href="#">Uomo</a>
+                    </li>
+                    <li>
+                        <a href="#">Bambini</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="img/boolean-logo.png" alt="boolean-logo">
+            </div>
+
+            <!-- user-menu -->
+            <div class="user-menu">
+                <ul class="option-list flex-container">
+                    <li>
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
    
-
-
     <!-- MAIN -->
     <main>
-        <div class="container">
-            <div class="products-list flex-container">
+        <section>
+            <div class="container">
+                <div class="products-list">
+                    <!-- first product -->
+                    <div class="col">
+                        <div class="cards">
 
-                <!-- first product -->
-                <div class="col">
-                    <div class="cards">
-                        <div class="product">
-                            <img src="img/1.webp" alt="Product 1">
-                            <img src="img/1b.webp" alt="" class="over">
+                            <!-- product image -->
+                            <div class="product-image">
+                                <img src="img/1.webp" alt="Product 1" class="main-image">
+                                <img src="img/1b.webp" alt="product 1" class="hover-image">
+                            
+                                <div class="heart">&hearts;</div>
+                            
+            
+                                <div class="labels">
+                                    <span class="label discount">-50%</span>
+                                    <span class="label sustainable">Sostenibilità</span>
+                                </div>
+                            </div>
+                            
+                            <!-- product text -->
+                            <div class="product-info">
+                                <div class="brand">Levi's</div>
+                                <a href="#"> <div class="product-name"><h2>RELAXED FIT TEE UNISEX</h2></div></a>
+                                <div class="price"> <span class="discounted-price">14,99€</span> <span class="original-price"> 29,99€</span></div>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- second product -->
+                    <div class="col">
+                        <div class="cards">
+                            <!-- product image -->
+                            <div class="product-image">
+                                <img src="img/2.webp" alt="Product 2" class="main-image">
+                                <img src="img/2b.webp" alt="product 2" class="hover-image">
+                            
+                                <div class="heart">&hearts;</div>
+                            
+            
+                                <div class="labels">
+                                    <span class="label discount">-30%</span>
+                                </div>
+                            </div>
+                            
+                            <!-- product text -->
+                            <div class="product-info">
+                                <div class="brand">Guess</div>
+                                <a href="#"> <div class="product-name"><h2>ROSES TEE</h2></div></a>
+                                <div class="price"> <span class="discounted-price">14,99€</span> <span class="original-price"> 29,99€</span></div>
+                            </div>
+                        </div>
+                    </div>
         
-                        <div class="discount flex-container">
-                            <div class="cut-price back-red">-50%</div>
-                            <div class="sustainabiliity back-green">Sostenibilità</div>
-                        </div>
+                    <!-- third product -->
+                    <div class="col">
+                        <div class="cards">
 
-                        <div class="heart">&hearts;</div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="brand">Levi's</div>
-                        <a href="#"> <div class="product-name">RELAXED FIT TEE UNISEX</div></a>
-                        <div class="price"> <span class="discounted-price">14,99€</span> <span class="original-price"> 29,99€</span></div>
-                    </div>
-                </div>
-
-                <!-- second product -->
-                <div class="col">
-                    <div class="cards">
-                        <div class="product">
-                            <img src="img/2.webp" alt="Product 2">
-                            <img src="img/2b.webp" alt="" class="over">
+                            <!-- product image -->
+                            <div class="product-image">
+                                <img src="img/3.webp" alt="Product 3" class="main-image">
+                                <img src="img/3b.webp" alt="product 3" class="hover-image">
+                            
+                                <div class="heart">&hearts;</div>
+                            
+            
+                                <div class="labels">
+                                    <span class="label discount">-30%</span>
+                                </div>
+                            </div>
+                            
+                            <!-- product text -->
+                            <div class="product-info">
+                                <div class="brand">Come Zucchero Filato</div>
+                                <a href="#"> <div class="product-name"><h2>VOGLIA DI COLORI PASTELLO</h2></div></a>
+                                <div class="price"> <span class="discounted-price">129,99€</span> <span class="original-price"> 184,99€</span></div>
+                            </div>
                         </div>
+                    </div>
         
-                        <div class="discount">
-                            <div class="cut-price back-red">-30%</div>
-                        </div>
+                    <!-- fourth product -->
+                    <div class="col">
+                        <div class="cards">
 
-                        <div class="heart">&hearts;</div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="brand">Guess</div>
-                        <a href="#"><div class="product-name">ROSES TEE</div></a>
-                        <div class="price"> <span class="discounted-price">20,99€</span> <span class="original-price"> 29,99€</span></div>
-                    </div>
-                </div>
-    
-                <!-- third product -->
-                <div class="col">
-                    <div class="cards">
-                        <div class="product">
-                            <img src="img/3.webp" alt="Product 3">
-                            <img src="img/3b.webp" alt="" class="over">
+                            <!-- product image -->
+                            <div class="product-image">
+                                <img src="img/4.webp" alt="Product 4" class="main-image">
+                                <img src="img/4b.webp" alt="product 4" class="hover-image">
+                            
+                                <div class="heart">&hearts;</div>
+                            
+            
+                                <div class="labels">
+                                    <span class="label discount">-50%</span>
+                                    <span class="label sustainable">Sostenibilità</span>
+                                </div>
+                            </div>
+                            
+                            <!-- product text -->
+                            <div class="product-info">
+                                <div class="brand">Levi's</div>
+                                <a href="#"> <div class="product-name"><h2>TEE UNISEX</h2></div></a>
+                                <div class="price"> <span class="discounted-price">14,99€</span> <span class="original-price"> 29,99€</span></div>
+                            </div>
                         </div>
+                    </div>
         
-                        <div class="discount">
-                            <div class="cut-price back-red">-30%</div>
-                        </div>
+                    <!-- fifth product -->
+                    <div class="col">
+                        <div class="cards">
 
-                        <div class="heart">&hearts;</div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="brand">Come Zucchero Filato</div>
-                        <a href="#"><div class="product-name">VOGLIA DI COLORI PASTELLO</div></a>
-                        <div class="price"> <span class="discounted-price">129,99€</span><span class="original-price"> 129,99€</span></div>
-                    </div>
-                </div>
-    
-                <!-- fourth product -->
-                <div class="col">
-                    <div class="cards">
-                        <div class="product">
-                            <img src="img/4.webp" alt="Product 4">
-                            <img src="img/4b.webp" alt="" class="over">
+                            <!-- product image -->
+                            <div class="product-image">
+                                <img src="img/5.webp" alt="Product 5" class="main-image">
+                                <img src="img/5b.webp" alt="product 5" class="hover-image">
+                            
+                                <div class="heart">&hearts;</div>
+                            </div>
+                            
+                            <!-- product text -->
+                            <div class="product-info">
+                                <div class="brand">Maya Delexe</div>
+                                <a href="#"> <div class="product-name"><h2>STRIPE BODICE</h2></div></a>
+                                <div class="price"> <span class="discounted-price">99,99€</span></div>
+                            </div>
                         </div>
+                    </div>
         
-                        <div class="discount flex-container">
-                            <div class="cut-price back-red">-50%</div>
-                            <div class="sustainabiliity back-green">Sostenibilità</div>
-                        </div>
+                    <!-- sixth product -->
+                    <div class="col">
+                        <div class="cards">
 
-                        <div class="heart">&hearts;</div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="brand">Levi's</div>
-                        <a href="#"><div class="product-name">TEE UNISEX</div></a>
-                        <div class="price"> <span class="discounted-price">14,99€</span><span class="original-price"> 29,99€</span></div>
-                    </div>
-                </div>
-    
-                <!-- fifth product -->
-                <div class="col">
-                    <div class="cards">
-                        <div class="product">
-                            <img src="img/5.webp" alt="Product 5">
-                            <img src="img/5b.webp" alt="" class="over">
+                            <!-- product image -->
+                            <div class="product-image">
+                                <img src="img/6.webp" alt="Product 6" class="main-image">
+                                <img src="img/6b.webp" alt="product 6" class="hover-image">
+                            
+                                <div class="heart">&hearts;</div>
+                            
+            
+                                <div class="labels">
+                                    <span class="label sustainable">Sostenibilità</span>
+                                </div>
+                            </div>
+                            
+                            <!-- product text -->
+                            <div class="product-info">
+                                <div class="brand">Esprit</div>
+                                <a href="#"> <div class="product-name"><h2>MAGLIONE - BLACK</h2></div></a>
+                                <div class="price"> <span class="discounted-price">29,99€</span></div>
+                            </div>
                         </div>
-
-                        <div class="heart">&hearts;</div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="brand">Maya Delexe</div>
-                        <a href="#"><div class="product-name">STRIPE BODICE</div></a>
-                        <div class="price"> <span class="discounted-price">99,99€</span></div>
-                    </div>
-                </div>
-    
-                <!-- sixth product -->
-                <div class="col">
-                    <div class="cards">
-                        <div class="product">
-                            <img src="img/6.webp" alt="Product 6">
-                            <img src="img/6b.webp" alt="" class="over">
-                        </div>
-        
-                        <div class="discount">
-                            <div class="sustainabiliity back-green">Sostenibilità</div>
-                        </div>
-
-                        <div class="heart">&hearts;</div>
-                    </div>
-                    
-                    <div class="description">
-                        <div class="brand">Esprit</div>
-                        <a href="#"><div class="product-name">MAGLIONE - BLACK</div></a>
-                        <div class="price"> <span class="discounted-price">29,99€</span></div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
+
+    
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+        <div class="footer-col container">
+            <div class="company-info">
+                <div class="company-name">Boolando s.r.l.</div>
+                <ul class="footer-menu">
+                    <li>
+                        <a href="#">Informazioni legali</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Informativa sulla privacy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Diritto di recesso</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="socials">
+                <div class="socials-title">Trovaci anche su</div>
+
+                <ul class="footer-menu">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter fa-square"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook fa-square"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram fa-square"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-brands fa-pinterest fa-square"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa-brands fa-youtube fa-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
